@@ -35,7 +35,7 @@ input {
 
 .app__form {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -45,6 +45,7 @@ input {
     align-items: center;
     padding: 1rem;
     backdrop-filter: blur(10px);
+    z-index: 10000;
 }
 .app__UsersCotainer {
     display: flex;
